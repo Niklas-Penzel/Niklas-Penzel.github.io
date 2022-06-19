@@ -1,7 +1,8 @@
 import { ImageUpload } from './components/ImageUpload';
 import { InterBox } from "./components/InterBox";
 import { useState, useEffect } from 'react';
-import axios from 'axios';
+const axios = require('axios');
+
 
 function App() {
   const [image, setImage] = useState(undefined)
